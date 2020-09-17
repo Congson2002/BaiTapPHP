@@ -59,5 +59,11 @@ for ($x = 0; $x <=10; $x++) {
     echo "The number is: $x <br>";
 }
 echo ('<br /> ------------------------------------------ End Vd5. <br />');
-
+echo ('Kết quả in ra: ');
+echo ('<br />');
+$a = array('a' => 1, 'b' => '2', 'c' => '3');
+ 
+foreach ( $a as $value ) {
+echo $value, "\n";
+echo ('<br /> ------------------------------------------ End Vd6. <br />');
 ?>

@@ -17,4 +17,28 @@ echo ('Kết quả in ra: ');
 echo ('<br />');
 Print "Return value is $retval\n";
 echo ('<br /> ---------------------------------- End Vd2. <br />');
+$a = 15;
+function add () {
+GLOBAL $a;
+$a++;
+echo ('Kết quả in ra: ');
+print "value of a is $a";
+}
+add ();
+echo ('<br /> ---------------------------------- End Vd3. <br />');
+echo ('Kết quả in ra: ');
+echo ('<br />');
+function keep_track() {
+    STATIC $count = 0;
+    $count++;
+    print $count;
+    print "
+";
+}
+keep_track();
+echo ('<br />');
+keep_track();
+echo ('<br />');
+keep_track();
+echo ('<br /> ----------------------------------- End Vd4. <br />');
 ?>  

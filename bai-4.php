@@ -4,7 +4,8 @@
      
     /* If điều kiện là true thì gán biến a cho result nếu không sẽ gán biến b */
     $result = ($a > $b ) ? $a :$b; 
-    echo "Value of result is $result<br/>";
+    echo ("Value of result is $result<br/>");
+    echo ('<br /> ----------------------------------------- End Vd1. <br />');
 echo "A+B= ";
     $a = 10;
     $b = 20;
@@ -52,4 +53,5 @@ echo "A+B-C*D/E= ";
 
     $result = ($a + $b -$c * $d / $e);
     echo "$result<br<r>";
+    echo ('<br /> ----------------------------------------- End Vd2. <br />');
 ?>

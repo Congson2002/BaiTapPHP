@@ -65,5 +65,34 @@ $a = array('a' => 1, 'b' => '2', 'c' => '3');
  
 foreach ( $a as $value ) {
 echo $value, "\n";
+}
 echo ('<br /> ------------------------------------------ End Vd6. <br />');
+echo ('Kết quả in ra: ');
+echo ('<br />');
+$a = array(
+    "one" => 1,
+    "two" => 2,
+    "three" => 3,
+    "four" => 17
+);
+ 
+foreach ($a as $k => $v) {
+    echo "\$a[$k] => $v.\n";
+    echo ('<br />');
+}
+echo ('<br /> ------------------------------------------ End Vd7. <br />');
+echo ('Kết quả in ra: ');
+echo ('<br />');
+for ( $i=1; $i<=20; $i++ ) {
+    echo $i;
+    if ( $i == 10 ) break;
+    }
+echo ('<br /> ------------------------------------------ End Vd8.1. <br />');
+echo ('Kết quả in ra: ');
+echo ('<br />');
+for ( $i=1; $i<=5; $i++ ) {
+    if ( $i == 2 ) continue;
+    echo $i;
+    }
+echo ('<br /> ------------------------------------------ End Vd8.2. <br />');
 ?>

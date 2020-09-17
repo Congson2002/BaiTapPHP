@@ -83,16 +83,16 @@ echo ('</pre>');
 echo ('<br /> -------------------------------------------- End Ex5. <br />');
 $products = [
     [
-        'name' => 'Bphone-2019',
-        'price' => 1000000,
+        'name' => 'Xiaomi Redmi Note 9 Pro',
+        'price' => 6000000,
     ],
     [
-        'name' => 'Vsmart-Live',
-        'price' => 3790000,
+        'name' => 'SamSung S20 Ultra 5G',
+        'price' => 23000000,
     ],
     [
-        'name' => 'Vsmart-Active',
-        'price' => 4890000,
+        'name' => 'Iphone11 ProMax',
+        'price' => 40000000,
     ],
 ];
 echo ('<pre>');
@@ -103,7 +103,7 @@ echo ('<pre>');
 print_r(reset($products));
 echo ('</pre>');
 echo ('<br /> -------------------------------------------- End Ex6.1. <br />');
-$color = ['Bphone' => 'yellow' , 'Vsmart-Live' => 'blue' ,'Vsmart-Active' => 'red' ];
+$color = ['Xiaomi Redmi Note 9 Pro' => 'yellow' , 'SamSung S20 Ultra 5G' => 'blue' ,'Iphone11 ProMax' => 'red' ]; 
 echo ('<pre>');
 print_r($color);
 echo ('</pre>');

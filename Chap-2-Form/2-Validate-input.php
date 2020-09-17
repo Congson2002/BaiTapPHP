@@ -57,7 +57,15 @@ if (isset($_POST['submit'])) {
         $erros['email'][] = 'Email không đúng định dạng';
     }
 }
-
+echo ('Bạn vừa nhập thông tin là:');
+echo ('<br />');
+echo ("Họ và Tên: $fullname");
+echo ('<br />');
+echo ("Email: $email");
+echo ('<br />');
+echo ("Số điện thoại: $phone");
+echo ('<br />');
+echo ("Giới tính: Nam");
 ?>
 
 <!DOCTYPE html>
@@ -92,7 +100,7 @@ if (isset($_POST['submit'])) {
         </div>
         <div>
             <label for="">Email</label>
-            <input type="text" name="phone">
+            <input type="text" name="email">
         </div>
         <div>
             <label for="">Số điện thoại</label>
@@ -108,3 +116,4 @@ if (isset($_POST['submit'])) {
         </div>
     </form>
 </body>
+

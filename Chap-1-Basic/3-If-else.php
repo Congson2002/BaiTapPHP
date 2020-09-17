@@ -33,8 +33,8 @@ echo ('<br /> -------------------------------------------- End Ex3. <br />');
 const FIRST_LEVEL = 15000; // 1km
 const SECOND_LEVEL = 12000; // 1km đến 5km
 const THIRD_LEVEL = 90000; // 6km đến 140km
-const FOURTH_LEVEL = 150000; // 150km đến 200km
-const FIFTH_LEVEL = 20/100; // 250km đến 500km
+const FOURTH_LEVEL = 150000; // 141km đến 200km
+const FIFTH_LEVEL = 20/100; // 201km đến 500km
 
 $numberKm = 400; // Khai báo số km sẽ đi
 $amount = 0;

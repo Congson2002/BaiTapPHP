@@ -10,7 +10,7 @@ echo ("Kết quả của biểu thức s = 1 + 2 + 3 + ... + $n là: $total");
 echo ('<br /> -------------------------------------------- End Ex1. <br />');
 $n = 10;
 $total = 0;
-for ($i = 1; $i <=$n; $i++) {
+for ($i = 1; $i <= $n; $i++) {
     $multiply = 1;
 for ($j = 1; $j <= $i; $j++) {
     $multiply *= $j;

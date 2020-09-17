@@ -29,17 +29,15 @@ echo ('<br /> ------------------------------------------ <br />');
 $firstNumber = 4;
 $secondNumber = 8;
 echo ("Số thứ nhất = $firstNumber và số thứ hai = $secondNumber <br />");
-
 $temp = $firstNumber;
 $firstNumber = $secondNumber;
 $secondNumber = $temp;
 echo ("Kết quả sau khi hoán vị là: Số thứ nhất = $firstNumber, số thứ hai = $secondNumber");
 echo ('<br />');
-$firstNumber = 8;
+$firstNumber = 6;
 $secondNumber =10;
 echo ("Số thứ nhất = $firstNumber và số thứ hai = $secondNumber <br />");
-
-$firstNumber = $firstNumber + $secondNumber;  //60
+$firstNumber = $firstNumber + $secondNumber;  //16
 $secondNumber = $firstNumber - $secondNumber; //6
 $firstNumber = $firstNumber - $secondNumber; //10
 echo ("Kết quả sau khi hoán vị là: Số thứ nhất = $firstNumber, số thứ hai = $secondNumber");

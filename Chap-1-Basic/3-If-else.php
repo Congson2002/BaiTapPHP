@@ -1,6 +1,6 @@
 <?php
-$firstNumber = 5;
-$secondNumber = 9;
+$firstNumber = 10;
+$secondNumber = 19;
 if ($firstNumber > $secondNumber) {
     echo ('firstNumber lớn hơn secondNumber');} 
 else {
